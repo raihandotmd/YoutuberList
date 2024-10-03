@@ -20,12 +20,12 @@ class ListYoutuberAdapter(private val listYoutuber: ArrayList<Youtuber>) : Recyc
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, photo) = listYoutuber[position]
+        val (name, summary, photo) = listYoutuber[position]
         Glide.with(holder.itemView.context)
             .load(photo) // URL Gambar
             .into(holder.binding.imgItemPhoto) // imageView mana yang akan diterapkan
         holder.binding.tvItemName.text = name
-        holder.binding.tvItemDescription.text = description
+        holder.binding.tvItemDescription.text = summary
         holder.itemView.setOnClickListener {
             val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
             intentDetail.putExtra("key_youtuber", listYoutuber[holder.adapterPosition])

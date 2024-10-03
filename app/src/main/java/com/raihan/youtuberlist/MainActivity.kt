@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var listYoutuberAdapter: ListYoutuberAdapter
     private lateinit var rvYoutubers: RecyclerView
     private val list = ArrayList<Youtuber>()
 
@@ -23,19 +24,24 @@ class MainActivity : AppCompatActivity() {
         rvYoutubers.setHasFixedSize(true)
 
         list.addAll(getListYoutubers())
+
+        listYoutuberAdapter = ListYoutuberAdapter(list)
+        rvYoutubers.adapter = listYoutuberAdapter
         showRecyclerList()
     }
 
+
     private fun getListYoutubers(): ArrayList<Youtuber> {
         val dataName = resources.getStringArray(R.array.data_name)
-        val dataDescription = resources.getStringArray(R.array.data_description)
+        val dataSummary = resources.getStringArray(R.array.data_summary)
         val dataPhoto = resources.getStringArray(R.array.data_photo)
         val dataBorn = resources.getIntArray(R.array.data_yt_born)
         val dataSubscriber = resources.getStringArray(R.array.data_yt_subs)
         val dataGenre = resources.getStringArray(R.array.data_yt_genre)
+        val dataDescription = resources.getStringArray(R.array.data_description)
         val listYoutuber = ArrayList<Youtuber>()
         for (i in dataName.indices) {
-            val youtuber = Youtuber(dataName[i], dataDescription[i], dataPhoto[i], dataBorn[i], dataSubscriber[i], dataGenre[i])
+            val youtuber = Youtuber(dataName[i], dataSummary[i], dataPhoto[i], dataBorn[i], dataSubscriber[i], dataGenre[i], dataDescription[i])
             listYoutuber.add(youtuber)
         }
         return listYoutuber
@@ -43,25 +49,23 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         rvYoutubers.layoutManager = LinearLayoutManager(this)
-        val listYoutuberAdapter = ListYoutuberAdapter(list)
-        rvYoutubers.adapter = listYoutuberAdapter
-
     }
 
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_main, menu)
+        menu?.let {
+            menuInflater.inflate(R.menu.menu_main, it)
+        }
         return super.onCreateOptionsMenu(menu)
     }
 
+    private val linearLayoutManager = LinearLayoutManager(this)
+    private val gridLayoutManager = GridLayoutManager(this, 2)
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_list -> {
-                rvYoutubers.layoutManager = LinearLayoutManager(this)
-            }
-            R.id.action_grid -> {
-                rvYoutubers.layoutManager = GridLayoutManager(this, 2)
-            }
+            R.id.action_list -> rvYoutubers.layoutManager = linearLayoutManager
+            R.id.action_grid -> rvYoutubers.layoutManager = gridLayoutManager
         }
         return super.onOptionsItemSelected(item)
     }

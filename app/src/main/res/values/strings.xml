@@ -13,8 +13,11 @@
         <item>Ninja</item>
         <item>David Dobrik</item>
         <item>Liza Koshy</item>
+        <item>Emma Chamberlain</item>
+        <item>Logan Paul</item>
     </string-array>
-    <string-array name="data_description">
+
+    <string-array name="data_summary">
         <item>PewDiePie, born Felix Arvid Ulf Kjellberg on October 24, 1989, is a Swedish YouTuber...</item>
         <item>MrBeast, whose real name is James Stephen Donaldson, is an American YouTuber born on May 7, 1998...</item>
         <item>Markiplier, real name Mark Edward Fischbach, born June 28, 1989, is an American YouTuber...</item>
@@ -24,20 +27,37 @@
         <item>Ninja, born Richard Tyler Blevins on June 5, 1991, is an American YouTuber and professional gamer...</item>
         <item>David Dobrik, born July 23, 1996, is a Slovak-born American YouTuber and podcaster...</item>
         <item>Liza Koshy, born March 31, 1996, is an American YouTuber, comedian, and actress...</item>
+        <item>Emma Chamberlain, born May 22, 2001, is an American YouTuber and social media personality known for her vlogs and lifestyle content...</item>
+        <item>Logan Paul, born April 1, 1995, is an American YouTuber, boxer, and entertainer known for his vlogs and social media presence...</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>pewdiepie, born felix arvid ulf kjellberg on october 24, 1989, is a swedish youtuber known for his lets play videos and comedic content.</item>
+        <item>mrbeast, whose real name is james stephen donaldson, is an american youtuber born on may 7, 1998, famous for his elaborate challenges and philanthropy.</item>
+        <item>markiplier, real name mark edward fischbach, born june 28, 1989, is an american youtuber recognized for his gaming videos and charity work.</item>
+        <item>sssniperwolf, born alia shelesh on october 22, 1992, is a british-american youtuber known for her reaction videos and gaming content.</item>
+        <item>james charles, born james charles dickinson on may 23, 1999, is an american beauty youtuber known for makeup tutorials and collaborations.</item>
+        <item>dude perfect is an american sports and comedy group consisting of twins cory and coby cotton, garrett hilbert, cody jones, and tyler toney, known for their trick shots and challenges.</item>
+        <item>ninja, born richard tyler blevins on june 5, 1991, is an american youtuber and professional gamer best known for his fortnite gameplay.</item>
+        <item>david dobrik, born july 23, 1996, is a slovak-born american youtuber and podcaster known for his vlogs featuring friends and celebrities.</item>
+        <item>liza koshy, born march 31, 1996, is an american youtuber, comedian, and actress known for her comedic skits and vlogs.</item>
+        <item>emma chamberlain, born may 22, 2001, is an american youtuber known for her vlogs, fashion, and lifestyle content, offering relatable and humorous content.</item>
+        <item>logan paul, born april 1, 1995, is an american youtuber, entertainer, and boxer known for his controversial vlogs, as well as his social media and combat sports career.</item>
     </string-array>
 
 
     <string-array name="data_photo">
-        <item>https://picsum.photos/200/300?random=1</item>
-        <item>https://picsum.photos/200/300?random=2</item>
-        <item>https://picsum.photos/200/300?random=3</item>
-        <item>https://picsum.photos/200/300?random=4</item>
-        <item>https://picsum.photos/200/300?random=5</item>
-        <item>https://picsum.photos/200/300?random=6</item>
-        <item>https://picsum.photos/200/300?random=7</item>
-        <item>https://picsum.photos/200/300?random=8</item>
-        <item>https://picsum.photos/200/300?random=9</item>
-        <item>https://picsum.photos/200/300?random=10</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pewdiepie_head_shot.jpg/440px-Pewdiepie_head_shot.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MrBeast_2023_%28cropped%29.jpg/440px-MrBeast_2023_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Markiplier_Covered_Me_In_His_Glue_-_YouTube_at_0935_%28cropped%29.png/440px-Markiplier_Covered_Me_In_His_Glue_-_YouTube_at_0935_%28cropped%29.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Alia_Shelesh_YouTube_shorts_screenshot.jpg/440px-Alia_Shelesh_YouTube_shorts_screenshot.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/James_Charles_-_GLAAD_Media_Awards_2024_%28cropped%29.png/440px-James_Charles_-_GLAAD_Media_Awards_2024_%28cropped%29.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dude_Perfect_logo.svg/440px-Dude_Perfect_logo.svg.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/c/cd/Krystalogy%2C_Jess%2C_Ninja%2C_and_Typical_Gamer_relaxing_in_the_State_Farm_Gamerhood_%2852899874282%29_%28cropped%29_3.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/8/8c/DavidDobrikAMMF2019_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Liza_Koshy_on_Pretty_Big_Deal.png/440px-Liza_Koshy_on_Pretty_Big_Deal.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Emma_Chamberlain_for_Chamberlain_Coffee%2C_2020_%281%29.png/440px-Emma_Chamberlain_for_Chamberlain_Coffee%2C_2020_%281%29.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Logan_Paul_%2848086619418%29.jpg/440px-Logan_Paul_%2848086619418%29.jpg</item>
     </string-array>
 
     <integer-array name="data_yt_born">
@@ -50,6 +70,8 @@
         <item>1991</item>
         <item>1996</item>
         <item>1996</item>
+        <item>2001</item>
+        <item>1995</item>
     </integer-array>
 
     <string-array name="data_yt_subs">
@@ -62,6 +84,8 @@
         <item>23.8M</item>
         <item>17.9M</item>
         <item>17.3M</item>
+        <item>12.3M</item>
+        <item>23.6M</item>
     </string-array>
 
     <string-array name="data_yt_genre">
@@ -74,7 +98,10 @@
         <item>Gaming</item>
         <item>Vlog, Comedy</item>
         <item>Comedy, Lifestyle</item>
+        <item>Lifestyle, Fashion</item>
+        <item>Vlog, Comedy, Sports</item>
     </string-array>
+
 
     <string name="born">🎂 Born</string>
     <string name="subscriber">Subscriber</string>
