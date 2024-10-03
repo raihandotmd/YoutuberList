@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.YoutuberList" parent="Theme.Material3.DayNight">
+    </style>
+
+    <style name="Theme.YoutuberList" parent="Base.Theme.YoutuberList" />
+</resources>

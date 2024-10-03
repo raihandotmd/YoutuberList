@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">MyYouTuberList</string>
+
+    <string name="youtubers_name">YouTuber Name</string>
+    <string name="description">Description</string>
+    <string-array name="data_name">
+        <item>PewDiePie</item>
+        <item>MrBeast</item>
+        <item>Markiplier</item>
+        <item>SSSniperWolf</item>
+        <item>James Charles</item>
+        <item>Dude Perfect</item>
+        <item>Ninja</item>
+        <item>David Dobrik</item>
+        <item>Liza Koshy</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>PewDiePie, born Felix Arvid Ulf Kjellberg on October 24, 1989, is a Swedish YouTuber...</item>
+        <item>MrBeast, whose real name is James Stephen Donaldson, is an American YouTuber born on May 7, 1998...</item>
+        <item>Markiplier, real name Mark Edward Fischbach, born June 28, 1989, is an American YouTuber...</item>
+        <item>SSSniperWolf, born Alia Shelesh on October 22, 1992, is a British-American YouTuber...</item>
+        <item>James Charles, born James Charles Dickinson on May 23, 1999, is an American beauty YouTuber...</item>
+        <item>Dude Perfect is an American sports and comedy group consisting of twins Cory and Coby Cotton, Garrett Hilbert, Cody Jones, and Tyler Toney...</item>
+        <item>Ninja, born Richard Tyler Blevins on June 5, 1991, is an American YouTuber and professional gamer...</item>
+        <item>David Dobrik, born July 23, 1996, is a Slovak-born American YouTuber and podcaster...</item>
+        <item>Liza Koshy, born March 31, 1996, is an American YouTuber, comedian, and actress...</item>
+    </string-array>
+
+
+    <string-array name="data_photo">
+        <item>https://picsum.photos/200/300?random=1</item>
+        <item>https://picsum.photos/200/300?random=2</item>
+        <item>https://picsum.photos/200/300?random=3</item>
+        <item>https://picsum.photos/200/300?random=4</item>
+        <item>https://picsum.photos/200/300?random=5</item>
+        <item>https://picsum.photos/200/300?random=6</item>
+        <item>https://picsum.photos/200/300?random=7</item>
+        <item>https://picsum.photos/200/300?random=8</item>
+        <item>https://picsum.photos/200/300?random=9</item>
+        <item>https://picsum.photos/200/300?random=10</item>
+    </string-array>
+
+    <integer-array name="data_yt_born">
+        <item>1989</item>
+        <item>1998</item>
+        <item>1989</item>
+        <item>1992</item>
+        <item>1999</item>
+        <item>1987</item>
+        <item>1991</item>
+        <item>1996</item>
+        <item>1996</item>
+    </integer-array>
+
+    <string-array name="data_yt_subs">
+        <item>111M</item>
+        <item>124M</item>
+        <item>34.5M</item>
+        <item>33.2M</item>
+        <item>22.9M</item>
+        <item>59M</item>
+        <item>23.8M</item>
+        <item>17.9M</item>
+        <item>17.3M</item>
+    </string-array>
+
+    <string-array name="data_yt_genre">
+        <item>Gaming, Comedy</item>
+        <item>Entertainment, Challenges</item>
+        <item>Gaming, Comedy</item>
+        <item>Gaming, Reaction</item>
+        <item>Beauty, Lifestyle</item>
+        <item>Sports, Comedy</item>
+        <item>Gaming</item>
+        <item>Vlog, Comedy</item>
+        <item>Comedy, Lifestyle</item>
+    </string-array>
+
+    <string name="born">🎂 Born</string>
+    <string name="subscriber">Subscriber</string>
+    <string name="genre">🎬 Genre</string>
+
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+
+</resources>

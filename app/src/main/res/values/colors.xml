@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+<!--  red indonesian flag color-->
+    <color name="red">#FFC70039</color>
+    <color name="red_dark">#FF8B0000</color>
+<!--    light red flag color-->
+    <color name="red_light">#FFFF6666</color>
+</resources>
